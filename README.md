@@ -1,6 +1,6 @@
 # Tableparse
 ---
-Parses an array and a set of headers into a text based table
+A stand alone library which parses an array and a set of headers into a text based table
 
 ## Features
 
@@ -8,7 +8,7 @@ Parses an array and a set of headers into a text based table
 Takes a 2D array of strings and returns a string containing the table
 
 e.g.
-```
+```bat
 >>> array = [
 >>> ["Title", "Description"],
 >>> ["Macbeth", "A play by Shakespear"]
@@ -20,4 +20,15 @@ e.g.
 ╠═══════╬═════════════════════╣
 ║Macbeth║A play by Shakespeare║
 ╚═══════╩═════════════════════╝
+```
+
+## Usage
+
+```py
+import tableparse
+
+array = [
+    ["Title", "Description", "Date"],
+    ["", "", ""]
+]
 ```
