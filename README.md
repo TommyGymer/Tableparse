@@ -24,6 +24,14 @@ e.g.
 
 ---
 
+## Installation
+
+```bat
+pip install tableparse
+```
+
+---
+
 ## Usage
 
 ```py
