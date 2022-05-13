@@ -66,7 +66,7 @@ Returns a list of strings containing a table split in the 'length' characters
 ║TableParse          ║A stand alone table generators                       ║https://github.com/TommyGymer/Tableparse          ║
 ║JSChess             ║A stand alone JS chess implementation                ║https://github.com/TommyGymer/JS-Chess            ║
 ║Dijkstra Pathfinding║An implementation of Dijkstra's pathfinding algorithm║https://github.com/TommyGymer/Dijkstra-pathfinding║
-╚════════════════════╩═════════════════════════════════════════════════════╩══════════════════════════════════════════════════╝#
+╚════════════════════╩═════════════════════════════════════════════════════╩══════════════════════════════════════════════════╝
 
 ### inv_array
 
