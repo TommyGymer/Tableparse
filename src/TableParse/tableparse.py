@@ -15,8 +15,6 @@ Uses the following characters for formatting
 ╠ ╣ ╩ ╦ ╬
 """
 
-import math
-
 def inv_array(arr):
     rtn = []
     height = len(arr)
