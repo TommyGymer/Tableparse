@@ -43,13 +43,7 @@ result = tableparse.tablify(array)
 
 Turns a 2D array into a table string
 
-╔════════════════════╦═════════════════════════════════════════════════════╦══════════════════════════════════════════════════╗
-║Name                ║Description                                          ║URL                                               ║
-╠════════════════════╬═════════════════════════════════════════════════════╬══════════════════════════════════════════════════╣
-║TableParse          ║A stand alone table generators                       ║https://github.com/TommyGymer/Tableparse          ║
-║JSChess             ║A stand alone JS chess implementation                ║https://github.com/TommyGymer/JS-Chess            ║
-║Dijkstra Pathfinding║An implementation of Dijkstra's pathfinding algorithm║https://github.com/TommyGymer/Dijkstra-pathfinding║
-╚════════════════════╩═════════════════════════════════════════════════════╩══════════════════════════════════════════════════╝
+![Tablify](https://tommygymer.github.io/Tableparse/tablify.jpg)
 
 ### tablify_str
 
@@ -60,13 +54,7 @@ result = tableparse.tablify_str(array, length)
 
 Returns a list of strings containing a table split in the 'length' characters
 
-╔════════════════════╦═════════════════════════════════════════════════════╦══════════════════════════════════════════════════╗
-║Name                ║Description                                          ║URL                                               ║
-╠════════════════════╬═════════════════════════════════════════════════════╬══════════════════════════════════════════════════╣
-║TableParse          ║A stand alone table generators                       ║https://github.com/TommyGymer/Tableparse          ║
-║JSChess             ║A stand alone JS chess implementation                ║https://github.com/TommyGymer/JS-Chess            ║
-║Dijkstra Pathfinding║An implementation of Dijkstra's pathfinding algorithm║https://github.com/TommyGymer/Dijkstra-pathfinding║
-╚════════════════════╩═════════════════════════════════════════════════════╩══════════════════════════════════════════════════╝
+![Tablify_str](https://tommygymer.github.io/Tableparse/tablify_str.jpg)
 
 ### inv_array
 
@@ -78,9 +66,4 @@ result = tableparse.tablify(inv_array)
 
 Flips an array's columns and rows
 
-╔═══════════╦════════════════════════════════════════╦══════════════════════════════════════╦═════════════════════════════════════════════════════╗
-║Name       ║TableParse                              ║JSChess                               ║Dijkstra Pathfinding                                 ║
-╠═══════════╬════════════════════════════════════════╬══════════════════════════════════════╬═════════════════════════════════════════════════════╣
-║Description║A stand alone table generators          ║A stand alone JS chess implementation ║An implementation of Dijkstra's pathfinding algorithm║
-║URL        ║https://github.com/TommyGymer/Tableparse║https://github.com/TommyGymer/JS-Chess║https://github.com/TommyGymer/Dijkstra-pathfinding   ║
-╚═══════════╩════════════════════════════════════════╩══════════════════════════════════════╩═════════════════════════════════════════════════════╝
+![array inverse](https://tommygymer.github.io/Tableparse/inv_array.jpg)
