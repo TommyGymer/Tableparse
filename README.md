@@ -14,7 +14,7 @@ e.g.
 >>> ["Macbeth", "A play by Shakespear"]
 >>> ]
 
->>> print(tableparse.tablify)
+>>> print(tableparse.tablify(array))
 ╔═══════╦═════════════════════╗
 ║Title  ║Description          ║
 ╠═══════╬═════════════════════╣
