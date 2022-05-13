@@ -62,7 +62,7 @@ def tablify(table):
 
     return final
 
-def tablify_str(table):
+def tablify_str(table, length):
     table = tablify(table)
 
     final = []
@@ -70,7 +70,7 @@ def tablify_str(table):
     char_count = 0
     current = ""
     for line in table.split('\n'):
-        if char_count + len(line) + 1 >= 1994:
+        if char_count + len(line) + 1 >= length:
             final.append(f"```{current}```")
             current = ""
             char_count = 0
