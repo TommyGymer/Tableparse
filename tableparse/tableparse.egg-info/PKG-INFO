@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
-Name: TableParse
-Version: 0.3
+Name: tableparse
+Version: 0.6
 Summary: A stand alone package for making string tables from 2D string arrays
 Home-page: https://github.com/TommyGymer/Tableparse
 Author: Tommy Gymer
